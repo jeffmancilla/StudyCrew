@@ -3,8 +3,6 @@ import Image from 'next/image'
 
 import PROJECT_IMAGE_JPG from 'public/assets/project-image.jpg' assert { type: 'jpg' }
 
-import './style.css'
-
 const Project = (): JSX.Element => {
   return (
     <div className="flex bg-gradient-to-r from-primary-500 to-gradient-500">
